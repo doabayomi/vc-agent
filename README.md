@@ -1,2 +1,3 @@
 # Voice to Motion Agent
-An independent engineering and research project exploring the use of a Large Language Model (LLM)—via the Gemini API—to perform semantic reasoning and convert high-level human instructions (e.g., "turn left by the chair") into low-level, executable motion commands for a mobile robot
+
+Middleware development project demonstrating LLM integration for robotics. The Python-based system uses the Gemini API to parse voice instructions, map them to a defined set of robot primitives (e.g., rotate(angle)). Optimized for execution on a low-power edge device (Raspberry Pi 3A+).
